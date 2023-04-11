@@ -54,7 +54,7 @@ create_map <-
         layerId = ~canton,
         fillOpacity = 0.0,
         stroke = TRUE,
-        color = "red",
+        color = "black",
         weight = 2,
         popup = paste(
           paste("<strong>Cantón:</strong>",  cantons[[COLUMN_CANTON_NAME]])
@@ -184,7 +184,7 @@ ui <- fluidPage(
   
   navbarPage(
     title = tags$span(
-      tags$a(href = "https://atlasverde.net/", target = "_blank", "Atlas de servicios ecosistémicos de la GAM"),
+      tags$a(href = "http://atlas-verde.org/", target = "_blank", "Atlas de servicios ecosistémicos de la GAM"),
       " - ",
       "Infraestructura verde, gris y azul"
     ),
